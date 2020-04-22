@@ -1,0 +1,10 @@
+{
+  "name": "redis-iris",
+  "version": "0.0.1",
+  "description": "Simple client to play with RedisAI",
+  "author": "Guy Royse <guy@guyroyse.com>",
+  "private": true,
+  "dependencies": {
+    "ioredis": "^4.16.3"
+  }
+}
