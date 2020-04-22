@@ -1,0 +1,18 @@
+Must install protobuf before installing the Python dependencies.
+
+The version of skl2onnx in requirements.txt doesn't compile with protobuf 3.11 but works with 3.10. This looks to be an open issue:
+https://github.com/onnx/onnx/issues/2481
+
+Needed to downgrade to 3.10.1. Using brew install, this is nigh impossible. Used this blog post and some gumption:
+https://itnext.io/how-to-install-an-older-brew-package-add141e58d32
+
+Also look at keras2onnx and tf2onnx.
+
+https://pypi.org/project/onnxmltools/ looks promising too. Apple Core ML to ONNX to RedisAI.
+
+redismod has AI but not ONNX.
+redisai has ONNX
+
+redis-cli -x AI.MODELSET iris ONNX CPU < logreg_iris.onnx
+
+The -x makes all the differnece.
