@@ -21,4 +21,4 @@ skl2onnx==1.6.1
 sklearn==0.0
 termcolor==1.1.0
 typing-extensions==3.7.4.2
-urllib3==1.25.9
+urllib3==1.26.5
