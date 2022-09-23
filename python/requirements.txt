@@ -10,7 +10,7 @@ onnxconverter-common==1.6.1
 onnxmltools==1.6.1
 onnxruntime==1.2.0
 pandas==1.0.3
-protobuf==3.11.3
+protobuf==3.18.3
 python-dateutil==2.8.1
 pytz==2019.3
 requests==2.23.0
